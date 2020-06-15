@@ -27,7 +27,7 @@ public class LockDemo {
             Thread.sleep(100);
             workOff();*/
             a = a -1;
-            Thread.sleep(301);
+            Thread.sleep(300);
             System.out.println(a);
         } catch (InterruptedException e) {
             e.printStackTrace();
